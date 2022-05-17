@@ -17,13 +17,15 @@ public class Main {
         System.out.println("1b: " + s + "\n");
 
         // Aufgabe 2
-        koeff = binString2arr("110110001");
+        //koeff = binString2arr("110110001");
+        koeff = binString2arr("100011011");
         init = binString2arr("11111111");
         s = nRounds(init, koeff, 16, false);
         System.out.println("2: " + s + "\n");
 
         // Aufgabe 3
-        koeff = binString2arr("11001");
+        // koeff = binString2arr("11001");
+        koeff = binString2arr("10011");
         init = binString2arr("1001");
         s = nRounds(init, koeff, 20, false);
         System.out.println("3: " + s);
